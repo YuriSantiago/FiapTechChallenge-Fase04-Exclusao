@@ -5,7 +5,6 @@ Expose 8080
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copia todas as pastas necessárias
 COPY Core ./Core
 COPY ExclusaoProdutor ./ExclusaoProdutor
 
